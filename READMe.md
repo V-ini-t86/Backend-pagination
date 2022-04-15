@@ -1,7 +1,5 @@
 # Backend-pagination
 
-# Backend-pagination
-
 #### Langauge: Javascript
 
 #### Database: MongoDB
