@@ -11,6 +11,6 @@ app.get("/users", paginatedResults(User), (req, res) => {
   res.status(200).json(res.result);
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`server is running on port ${process.env.PORT}....`);
 });
